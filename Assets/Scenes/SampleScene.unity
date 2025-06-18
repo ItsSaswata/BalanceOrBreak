@@ -206,7 +206,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.2990533, y: -0.33560973, z: 0.1132713, w: 0.8860603}
+  m_LocalRotation: {x: 0.3197863, y: 0, z: 0, w: 0.94748974}
   m_LocalPosition: {x: 5.25, y: 6.05, z: -5.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -527,13 +527,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 967591123}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.2990533, y: -0.33560973, z: 0.1132713, w: 0.8860603}
+  m_LocalRotation: {x: 0.3197863, y: 0, z: 0, w: 0.94748974}
   m_LocalPosition: {x: 5.25, y: 6.05, z: -5.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 37.3, y: -41.49, z: 0}
+  m_LocalEulerAnglesHint: {x: 37.3, y: 0, z: 0}
 --- !u!1 &1019614101
 GameObject:
   m_ObjectHideFlags: 0
@@ -546,7 +546,7 @@ GameObject:
   - component: {fileID: 1019614104}
   - component: {fileID: 1019614103}
   - component: {fileID: 1019614102}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -636,13 +636,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1019614101}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.25, y: 0, z: -2.46}
+  m_LocalRotation: {x: 0, y: 0.38268343, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: 5.34, y: 0, z: -1.87}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
 --- !u!1 &2076985460
 GameObject:
   m_ObjectHideFlags: 0
@@ -746,13 +746,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2076985460}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.3100002, y: 0.63, z: -2.46}
+  m_LocalRotation: {x: 0, y: 0.38268343, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: 5.45, y: 0.63, z: -1.92}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 45, z: 0}
 --- !u!114 &2076985465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -765,6 +765,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9389feb1e6fb7604c99d14dc6c61bda2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dragSensitivity: 1
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!54 &2076985466
 Rigidbody:
   m_ObjectHideFlags: 0
