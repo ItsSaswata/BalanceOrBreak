@@ -149,7 +149,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9389feb1e6fb7604c99d14dc6c61bda2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objectSpawner: {fileID: 0}
+  stackableLayer: 6
+  stackedLayer: 7
+  ghostLayer: 8
   dragSensitivity: 1
   groundLayer:
     serializedVersion: 2
     m_Bits: 8
+  dragHeightOffset: 0.5
+  enablePhysicsCheats: 1
+  stabilizationTime: 2
+  stabilizationThreshold: 0.1
+  centeringForce: 5
+  dampingMultiplier: 2
+  maxStabilizationDistance: 1
+  uprightingForce: 3
+  maxVelocity: 5
+  maxAngularVelocity: 10
+  ghostMaterial: {fileID: 2100000, guid: 3273d55125c0d8e4eb03d6ef4e57d0f8, type: 2}
+  useGhostVisual: 1
+  ghostAlpha: 0.5
+  enableAutoStacking: 1
+  timeToMarkAsStacked: 2
+  stabilityThreshold: 0.05
+  dragStartSound: {fileID: 0}
+  dropSound: {fileID: 0}
+  stackSound: {fileID: 0}
+  audioSource: {fileID: 0}
+  dropEffect: {fileID: 0}
+  stackIndicator: {fileID: 0}
